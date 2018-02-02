@@ -1,0 +1,36 @@
+.news ul li {
+  border-bottom: 0.01rem solid #f7f7f7;
+  height: 1.1rem;
+  position: relative;
+}
+.news ul li .news-left {
+  width: 1rem;
+  height: 0.9rem;
+  position: absolute;
+  left: 0.1rem;
+}
+.news ul li .news-left img {
+  width: 100%;
+}
+.news ul li .news-right {
+  margin-left: 1.2rem;
+  width: 2.4rem;
+}
+.news ul li .news-right h4 {
+  font-size: 0.14rem;
+  margin-top: 0.1rem;
+  color: #333;
+}
+.news ul li .news-right div {
+  font-size: 0.12rem;
+  margin-top: 0.1rem;
+  color: #666;
+  line-height: 0.2rem;
+}
+.news ul li .news-time {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.2rem;
+  font-size: 0.1rem;
+  color: #666;
+}

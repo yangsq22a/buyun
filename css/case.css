@@ -1,0 +1,56 @@
+.case {
+  width: 100%;
+  height: 5.3rem;
+  background-color: #f7f7f7;
+}
+.case .headline {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #fff;
+  line-height: 0.4rem;
+  font-size: 0.14rem;
+}
+.case .headline .headline-left {
+  float: left;
+  margin-left: 0.1rem;
+  color: #333333 ;
+}
+.case .headline .headline-right {
+  float: right;
+  margin-right: 0.05rem;
+  color: #808080 ;
+}
+.case .headline .headline-right a img {
+  width: 0.06rem;
+  height: 0.12rem;
+  margin-top: 0.135rem;
+}
+.case .subject {
+  margin: 0 0.1rem ;
+  background-color: #f7f7f7;
+  border-radius: 0.1rem;
+}
+.case .subject ul li {
+  width: 100%;
+  border-radius: 0.1rem;
+  margin-top: 0.1rem;
+  background-color: #fff;
+}
+.case .subject ul li img {
+  width: 3.35rem;
+  height: 1.5rem;
+  padding: 0.1rem 0.1rem 0 0.1rem;
+}
+.case .subject ul li h3 {
+  padding-top: 0.15rem;
+  font-size: 0.14rem;
+  color: #333;
+  padding-left: 0.1rem;
+}
+.case .subject ul li p {
+  padding-top: 0.1rem;
+  color: #808080;
+  font-size: 0.12rem;
+  padding-left: 0.1rem;
+  padding-bottom: 0.2rem;
+}

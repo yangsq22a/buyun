@@ -1,0 +1,251 @@
+.register {
+    width: 100%;
+    height: 100%;
+    background: url(../img/register.png) no-repeat;
+    background-size: 100%;
+    border-top: 0.01rem solid #fff;
+}
+
+.register .logo {
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.register .logo img {
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+.register .register-i {
+    padding-top: 0.4rem;
+    font-size: 0.18rem;
+    color: #fff;
+    text-align: center;
+}
+
+.register .register-i span {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    color: #fff;
+    /* background-color: hotpink; */
+}
+
+.register .register-i a .span {
+    /* border-right: 0.01rem solid #fff; */
+    margin-right: 0.35rem;
+    position: relative;
+}
+
+.register .register-i a .span::after {
+    content: "";
+    display: block;
+    width: 0.01rem;
+    height: 0.25rem;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 1.05rem;
+}
+
+.register .register-i .zhuce {
+    margin-left: 0.35rem;
+    position: relative;
+    color: #fff;
+}
+
+.register .register-i .zhuce::before {
+    content: "";
+    display: block;
+    width: 0.7rem;
+    height: 0.03rem;
+    background-color: #69c0e5;
+    position: absolute;
+    bottom: -0.1rem;
+    left: 0;
+}
+
+.register .shouji {
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    width: 2.8rem;
+    height: 0.4rem;
+    border-bottom: 0.02rem solid #fff;
+}
+
+.register .shouji img {
+    width: 0.13rem;
+    height: 0.2rem;
+    margin: 0.1rem 0.15rem;
+}
+
+.register .shouji input {
+    height: 0.2rem;
+    margin-top: 0.08rem;
+    border: 0;
+    background: none;
+    color: #fff;
+    font-size: 0.14rem;
+}
+
+.register .shouji input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    /* color: rgba（255, 255, 255, ）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+}
+
+.register .shouji input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    /* color: rgba（255, 255, 255, 0.5）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+}
+
+.register .shouji input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    /* color: rgba（255, 255, 255, 0.5）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+}
+
+.register .shouji input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    /* color: rgba（255, 255, 255, 0.5）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+}
+
+.register .yanzheng {
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.register .name {
+    width: 2.8rem;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+    border-bottom: 0.02rem solid #fff;
+}
+
+.register .name img {
+    width: 0.13rem;
+    height: 0.2rem;
+    margin: 0.1rem 0.15rem;
+}
+
+.register .name input {
+    border: none;
+    background: none;
+    font-size: 0.14rem;
+    color: #fff;
+    margin-top: 0.08rem;
+}
+
+.register .name input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    /* color: rgba（255, 255, 255, ）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+}
+
+.register .name input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    /* color: rgba（255, 255, 255, 0.5）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+}
+
+.register .name input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    /* color: rgba（255, 255, 255, 0.5）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+}
+
+.register .name input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    /* color: rgba（255, 255, 255, 0.5）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+}
+
+.register .yanzheng input {
+    border: 0;
+    width: 1.4rem;
+    height: 0.4rem;
+    background: none;
+    color: #fff;
+    border-bottom: 0.02rem solid #fff;
+}
+
+.register .yanzheng input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    /* color: rgba（255, 255, 255, ）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+    padding-left: 0.1rem;
+}
+
+.register .yanzheng input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    /* color: rgba（255, 255, 255, 0.5）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+    padding-left: 0.15rem;
+}
+
+.register .yanzheng input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    /* color: rgba（255, 255, 255, 0.5）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+    padding-left: 0.15rem;
+}
+
+.register .yanzheng input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    /* color: rgba（255, 255, 255, 0.5）; */
+    color: #fff;
+    opacity: 0.5;
+    font-size: 0.14rem;
+    padding-left: 0.15rem;
+}
+
+.register .yanzheng button {
+    width: 1.2rem;
+    height: 0.4rem;
+    margin-left: 0.15rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border-radius: 0.05rem;
+    font-size: 0.14rem;
+}
+
+.register .registerl {
+    width: 2.8rem;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    background-color: #69c0e5;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+    border-radius: 0.05rem;
+    text-align: center;
+}
+
+.register .registerl button {
+    font-size: 0.18rem;
+    color: #fff;
+}
